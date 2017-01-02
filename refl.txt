@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    - The diff program eventually shows to you the differences of files. 
+    So you can quickly find bugs if they are in these differences.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    - That gives you access to compare files, to see changes and to think about it more 
+    carefully. You can find out what changes are made and to see why. This gives you
+    understanding of what the programmer job is.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    - pros: you can decide by yourself when you should to do some commits
+    it is better because you know when you do logical change and when not.
+    Cons: you can forget to commit in time or make mistake.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    - because in case of programming it is an essential thing to keep track of 
+    all changes in each file simultaneously because it is often necessary to 
+    do some changes in a few files when you want to commit one logical change.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    - use 'git log' to see commits and 'git diff' to compare this commits with each other. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    - well you could do changes and not be afraid to get some bugs or typos as long
+    as you use version control like git because every time you do changes you can 
+    restore previous state of code and compare it to actual state to find the error. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    - I'd like to use Git to see changes in different files, like in this one or 
+    in my python files just to get used to it. It should help me later.
