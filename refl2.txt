@@ -4,3 +4,12 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 - the staging area is like the area for preparing files which will be committed. It offer the possibility to make changes and do some experimental work until there are well-prepared files for making a commitment.
 
+How can you use the staging area to make sure you have one commit per logical change?
+- You can (should) check staging area every time before committing to see what are the differencies between staging area and the last commit by "git diff --staged".
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- branches are helpful when you need do some xperiments with your code and simultaneously you want to keep your actual working code in unchanged state. So you can do as many versions as you want and you always can see the forking point.
+
+How do the diagrams help you visualize the branch structure?
+- The diagram using by "git log --graph --oneline" help visualize the tree of code evolution. On that tree you can see forking points and sequence of steps.
+
