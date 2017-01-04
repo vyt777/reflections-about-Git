@@ -13,3 +13,9 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 - The diagram using by "git log --graph --oneline" help visualize the tree of code evolution. On that tree you can see forking points and sequence of steps.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- the result of merging two branches together is that all commits from one branch is added to another (master) branch and then it represents as single branch. We represent it in the diagram because it is a good way to visualize the evolution of code and its forking and merging points.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- Well the pros are that git automatically merging branches and doing it when it is a basic and simple cases, so it is fast way to do some tedious work. Another pro is that git leave difficult cases (conflicts of codes) on the programmers decision because git can't resolve it by itself. Maybe you can say that this is a con but right now git is not capable of be smart enough to do this in automatic way so I guess this is a good feature anyway.
+
