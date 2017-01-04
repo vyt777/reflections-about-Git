@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+- it is useful when you are working with the another members of code crew together so you can remotely keep, view and commit 
+changes at some project.
